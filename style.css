@@ -1,0 +1,83 @@
+body{
+    margin: o;
+    padding: 0;
+    background-color: white;
+    height: 93vh;
+    width: 100%;
+    
+}
+
+.nav-bar{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-left: 5px;
+    justify-content: space-evenly;
+
+}
+
+#right{
+    position: absolute;
+    margin-left: 85%;
+    top: 20px;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+}
+
+#right button{
+    border: none;
+    background-color:#1877f2;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.logo{
+    margin-top: 10%;
+    margin-left: 37%;
+}
+
+form-control{
+    margin-left: 28%;
+}
+
+form-control input{
+    width: 45%;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    box-shadow: 2px grey;
+}
+
+.fa-search{
+    position: absolute;
+    top: 57%;
+    left: 30%;
+}
+
+form-control button{
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+}
+
+
+footer{
+    position: fixed;
+    height: 7vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: color #f4f4f4;
+    justify-content: space-evenly;
+    text-align-last: center;
+   
+}
